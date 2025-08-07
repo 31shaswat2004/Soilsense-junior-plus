@@ -1,0 +1,70 @@
+# SoilSense Junior+ 🌱
+
+An accessible soil health monitoring tool designed for children and elderly users, promoting environmental sustainability through hands-on learning.
+
+## 🎯 Project Overview
+SoilSense Junior+ is a hackathon project that bridges the gap between complex soil monitoring tools and user-friendly educational interfaces. Our solution empowers communities to understand and improve soil health through interactive technology.
+
+## ✨ Features
+- **👶 Child-Friendly Interface**: Colorful, emoji-based UI with animations
+- **👴 Elderly-Accessible Design**: Large text, voice guidance, simple navigation
+- **📱 Real-time Monitoring**: pH, moisture, and temperature sensors
+- **🎓 Educational Content**: Fun facts, quizzes, and gardening tips
+- **🔗 Community Features**: Garden journals and progress tracking
+
+## 🛠️ Technology Stack
+- **Hardware**: Arduino/ESP32, pH sensor, moisture sensor, temperature sensor
+- **Mobile App**: Flutter (Dart)
+- **Communication**: WebSocket for real-time data
+- **Accessibility**: Text-to-speech, large UI elements
+
+## 🚀 Quick Start
+
+### Arduino Setup
+1. Install Arduino IDE
+2. Install required libraries: `WiFi`, `ArduinoJson`, `WebSocketsServer`
+3. Update WiFi credentials in `arduino/soil_monitor/soil_monitor.ino`
+4. Upload code to your ESP32/Arduino
+
+### Mobile App Setup
+1. Install Flutter SDK
+2. Navigate to `mobile_app` directory
+3. Run `flutter pub get`
+4. Connect device/emulator
+5. Run `flutter run`
+
+### Demo Mode
+Test the app without hardware using the built-in demo mode - just click "Demo" in the connection widget!
+## 📁 Project Structure
+soilsense-junior-plus/
+├── README.md
+├── arduino/
+│ └── soil_monitor/
+│ └── soil_monitor.ino
+├── mobile_app/
+│ ├── lib/
+│ ├── pubspec.yaml
+│ └── android/
+└── docs/
+
+
+## 🏆 Hackathon Impact
+This project addresses UN Sustainable Development Goals:
+- **Quality Education** (SDG 4)
+- **Climate Action** (SDG 13)
+- **Life on Land** (SDG 15)
+
+## 👥 Team Techies
+- Anurag Srivastava
+- Nikita Verma
+- Shashwat Pandey
+- Abhijeet Rai
+
+## 📄 License
+Open source under MIT License
+
+## 🤝 Contributing
+We welcome contributions! Feel free to submit issues and pull requests.
+
+---
+Made with 💚 for sustainable communities
